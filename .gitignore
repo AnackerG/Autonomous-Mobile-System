@@ -1,0 +1,28 @@
+# --- ROS 2 Bags & Recordings (.db3, .mcap, archives) ---
+*.db3
+*.mcap
+*.tar.xz
+**/rosbag2_*/
+
+# --- ROS 2 Build, Install & Log Artifacts ---
+**/build/
+**/install/
+**/log/
+**/colcon_build/
+**/colcon_metadata/
+
+# --- Bibliothèques compilées et fichiers objets ---
+*.a
+*.o
+*.so
+
+# --- IDE et éditeurs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Systèmes d'exploitation ---
+.DS_Store
+Thumbs.db

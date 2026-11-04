@@ -1,0 +1,75 @@
+Which topics do the bagfiles contain? What is the data rate of each topic?
+How long are the individual log files (time span)?
+
+---> ros2 bag info rosbag2_lisar/
+
+ros2 bag info rosbag2_lisar/
+
+Files:             rosbag2_lisar_0.mcap
+Bag size:          616.1 MiB
+Storage id:        mcap
+ROS Distro:        jazzy
+Duration:          59.999618652s
+Start:             Aug 11 2025 16:35:35.000286200 (1754922935.000286200)
+End:               Aug 11 2025 16:36:34.999904852 (1754922994.999904852)
+Messages:          55888
+Topic information: Topic: /camera_left1/image_raw/compressed | Type: sensor_msgs/msg/CompressedImage | Count: 1200 | Serialization Format: cdr
+                   Topic: /camera_left2/image_raw/compressed | Type: sensor_msgs/msg/CompressedImage | Count: 1200 | Serialization Format: cdr
+                   Topic: /camera_left3/image_raw/compressed | Type: sensor_msgs/msg/CompressedImage | Count: 1200 | Serialization Format: cdr
+                   Topic: /camera_right1/image_raw/compressed | Type: sensor_msgs/msg/CompressedImage | Count: 1200 | Serialization Format: cdr
+                   Topic: /camera_right2/image_raw/compressed | Type: sensor_msgs/msg/CompressedImage | Count: 1200 | Serialization Format: cdr
+                   Topic: /camera_right3/image_raw/compressed | Type: sensor_msgs/msg/CompressedImage | Count: 1200 | Serialization Format: cdr
+                   Topic: /imu/data | Type: sensor_msgs/msg/Imu | Count: 11960 | Serialization Format: cdr
+                   Topic: /imu/time_ref | Type: sensor_msgs/msg/TimeReference | Count: 36728 | Serialization Format: cdr
+Service:           0
+Service information: 
+
+
+------------------------------------------------
+
+ros2 bag info rosbag2_handheld
+
+Files:             rosbag2_handheld_0.mcap
+Bag size:          4.3 GiB
+Storage id:        mcap
+ROS Distro:        jazzy
+Duration:          9.992198841s
+Start:             Apr 13 2024 15:41:42.000838796 (1713015702.000838796)
+End:               Apr 13 2024 15:41:51.993037637 (1713015711.993037637)
+Messages:          3300
+Topic information: Topic: /left/image_raw | Type: sensor_msgs/msg/Image | Count: 1000 | Serialization Format: cdr
+                   Topic: /livox/imu | Type: sensor_msgs/msg/Imu | Count: 1200 | Serialization Format: cdr
+                   Topic: /livox/lidar | Type: sensor_msgs/msg/PointCloud2 | Count: 100 | Serialization Format: cdr
+                   Topic: /right/image_raw | Type: sensor_msgs/msg/Image | Count: 1000 | Serialization Format: cdr
+Service:           0
+Service information: 
+
+
+-----------------------------------------------
+
+ros2 bag info rosbag2_2026_01_09-09_09_39/
+
+Files:             rosbag2_2026_01_09-09_09_39_0.db3
+Bag size:          143.4 MiB
+Storage id:        sqlite3
+ROS Distro:        unknown
+Duration:          215.631780100s
+Start:             Jan  9 2026 09:09:40.205012796 (1767946180.205012796)
+End:               Jan  9 2026 09:13:15.836792896 (1767946395.836792896)
+Messages:          32281
+Topic information: Topic: /clicked_point | Type: geometry_msgs/msg/PointStamped | Count: 0 | Serialization Format: cdr
+                   Topic: /cloud | Type: sensor_msgs/msg/PointCloud2 | Count: 10745 | Serialization Format: cdr
+                   Topic: /events/write_split | Type: rosbag2_interfaces/msg/WriteSplitEvent | Count: 0 | Serialization Format: cdr
+                   Topic: /goal_pose | Type: geometry_msgs/msg/PoseStamped | Count: 0 | Serialization Format: cdr
+                   Topic: /initialpose | Type: geometry_msgs/msg/PoseWithCovarianceStamped | Count: 0 | Serialization Format: cdr
+                   Topic: /odom | Type: nav_msgs/msg/Odometry | Count: 4313 | Serialization Format: cdr
+                   Topic: /parameter_events | Type: rcl_interfaces/msg/ParameterEvent | Count: 0 | Serialization Format: cdr
+                   Topic: /rosout | Type: rcl_interfaces/msg/Log | Count: 10 | Serialization Format: cdr
+                   Topic: /scan | Type: sensor_msgs/msg/LaserScan | Count: 10745 | Serialization Format: cdr
+                   Topic: /sick_lms_1xx/imu | Type: sensor_msgs/msg/Imu | Count: 0 | Serialization Format: cdr
+                   Topic: /sick_lms_1xx/marker | Type: visualization_msgs/msg/MarkerArray | Count: 1 | Serialization Format: cdr
+                   Topic: /tf | Type: tf2_msgs/msg/TFMessage | Count: 6466 | Serialization Format: cdr
+                   Topic: /tf_static²² | Type: tf2_msgs/msg/TFMessage | Count: 1 | Serialization Format: cdr
+Service:           0
+Service information: 
+

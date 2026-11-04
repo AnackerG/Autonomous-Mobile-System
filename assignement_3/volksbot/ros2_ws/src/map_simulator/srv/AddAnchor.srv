@@ -1,0 +1,8 @@
+string frame_id
+float64 x 0.
+float64 y 0.
+float64 variance_factor 0.01          # published variance (variance = factor * range)
+float64 variance_factor_real 0.01     # simulated variance (real variance = real factor * range)
+float64 min_range 0.
+float64 max_range 100.
+---

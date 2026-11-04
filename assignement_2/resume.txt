@@ -1,0 +1,45 @@
+rosbag2_lisar
+
+duration: 60s
+Topic: /camera_left1/image_raw/compressed  20Hz
+Topic: /camera_left2/image_raw/compressed  20Hz
+Topic: /camera_left3/image_raw/compressed  20Hz
+Topic: /camera_right1/image_raw/compressed 20Hz
+Topic: /camera_right2/image_raw/compressed 20Hz
+Topic: /camera_right3/image_raw/compressed 20Hz
+Topic: /imu/data | Type: sensor_msgs/msg/Imu 200Hz
+Topic: /imu/time_ref | Type: sensor_msgs/msg/TimeReference  612Hz
+
+
+rosbag2_handheld
+
+Duration:          9.992198841s
+Topic: /left/image_raw  100Hz
+Topic: /livox/lidar  10Hz
+Topic: /right/image_raw 100Hz
+
+
+rosbag2_2026_01_09-09_09_3
+
+Duration:          215.631780100s
+Topic: /clicked_point 0Hz
+Topic: /cloud  50Hz
+Topic: /events/write_split 0Hz
+Topic: /goal_pose 0Hz
+Topic: /initialpose 0Hz
+Topic: /odom 20Hz
+Topic: /parameter_events 0Hz
+Topic: /rosout 0.04Hz
+Topic: /scan 50Hz
+Topic: /sick_lms_1xx/im 0Hz
+Topic: /sick_lms_1xx/marker 0Hz
+Topic: /tf 30Hz
+Topic: /tf_static 0Hz
+
+
+
+
+
+
+
+
